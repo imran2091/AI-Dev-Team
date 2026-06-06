@@ -142,6 +142,7 @@ Every Gemini API call is wrapped with a token counter. You see exactly how many 
 
 | Phase | What Gets Added |
 |-------|----------------|
+| Phase 1 | PM Agent (5 steps) + Understands requirement, removes ambiguity |
 | Phase 2 | Architect Agent (5 steps) + Blueprint Validator |
 | Phase 3 | Planner Agent + Docker Sandbox + Health Check |
 | Phase 4 | Context Builder + Coder Agent + Registry + Snapshots |
