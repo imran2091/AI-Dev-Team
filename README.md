@@ -4,7 +4,7 @@ npm i
 
 cd dashboard && npm install && cd ..
 
-npm run dev
+"npm run dev" (both frontend and Backend parallel run)
 
 
 
