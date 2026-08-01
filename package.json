@@ -7,7 +7,6 @@
   "scripts": {
     "start": "node server/index.js",
     "cli" : "node src/index.js",
-    "server": "node server/index.js",
     "dashboard": "cd dashboard && npm run dev",
     "dev": "concurrently \"npm run server\" \"npm run dashboard\"",
     "test:graph": "node tests/test-graph-skeleton.js",
