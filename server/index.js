@@ -29,7 +29,7 @@ import { initGemini } from "../src/utils/gemini.js";
 import projectRoutes from "./routes/projects.js";
 import { initWebSocket } from "./ws/handler.js";
 
-const PORT = process.env.SERVER_PORT || 3000;
+// const PORT = process.env.SERVER_PORT || 3000;
 const PORT = process.env.PORT || process.env.SERVER_PORT || 3000;
 
 // ─── Express App ─────────────────────────────────────────────
