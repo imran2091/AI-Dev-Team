@@ -47,7 +47,9 @@ app.use((req, res, next) => {
   }
   next();
 });
-
+app.get("/", (req, res) => {
+  res.send("AI Dev Team Backend is running 🚀");
+});
 // Health check
 app.get("/api/health", (req, res) => {
   res.json({
