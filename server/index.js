@@ -98,6 +98,7 @@ async function start() {
 
   // 2. Start server
   server.listen(PORT, "0.0.0.0",() => {
+    console.log(`🚀 Server listening on port ${PORT}`);
     console.log(`   ✅ REST API:    http://localhost:${PORT}/api`);
     console.log(`   ✅ WebSocket:   ws://localhost:${PORT}/ws`);
     console.log(`   ✅ Frontend:    ${FRONTEND_URL}`);
